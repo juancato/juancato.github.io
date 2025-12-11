@@ -13,26 +13,23 @@
 
 <body class="bg-gray-50 text-gray-800 font-sans leading-relaxed transition-opacity duration-300" id="body">
 
-  <!-- 🌍 Selector de idioma -->
   <div class="flex flex-col items-center mt-6 mb-2">
-    <p class="text-sm text-gray-500 mb-2" data-i18n="change_language_hint">
-      🌍 Cambia el idioma
-    </p>
-
+    
+    <p class="text-sm text-gray-500 mb-2" data-i18n="change_language_hint"></p>
+    
     <div class="flex gap-4" id="language-selector">
-
       <button onclick="setLanguage('es')" class="flex items-center gap-2 px-3 py-2 rounded-full hover:bg-gray-200 transition">
-        <div class="w-8 h-8 rounded-full overflow-hidden border">
+        <div class="w-6 h-6 rounded-full overflow-hidden border">
           <img src="es.svg" class="w-full h-full object-cover" alt="Español">
         </div>
-        <span class="text-sm">ES</span>
+        <span class="text-sm">es</span>
       </button>
 
       <button onclick="setLanguage('en')" class="flex items-center gap-2 px-3 py-2 rounded-full hover:bg-gray-200 transition">
-        <div class="w-8 h-8 rounded-full overflow-hidden border">
+        <div class="w-6 h-6 rounded-full overflow-hidden border">
           <img src="gb.svg" class="w-full h-full object-cover" alt="English">
         </div>
-        <span class="text-sm">EN</span>
+        <span class="text-sm">en</span>
       </button>
 
     </div>
@@ -82,38 +79,59 @@
 
       <div class="space-y-6">
         <!-- Odeene -->
-       <div class="pb-4 border-b border-gray-200 last:border-0">
-        <div class="flex items-center gap-3 mb-1">
-          <img src="odeene_logo.jpeg" class="w-6 h-6 object-contain">
-          <p class="font-semibold" data-i18n="odeene_role"></p>
+        <div class="pb-4 border-b border-gray-200 last:border-0">
+          <div class="flex items-center gap-3 mb-1">
+            <img src="odeene_logo.jpeg" class="w-6 h-6 object-contain">
+            <p class="font-semibold" data-i18n="odeene_role"></p>
+          </div>
+          <p data-i18n="odeene_desc"></p>
+          <ul class="list-disc list-inside text-gray-700" data-i18n="odeene_tasks"></ul>
         </div>
-        <p data-i18n="odeene_desc"></p>
-        <ul class="list-disc list-inside text-gray-700" data-i18n="odeene_tasks"></ul>
-      </div>
 
         <!-- Vector -->
         <div class="pb-4 border-b border-gray-200 last:border-0">
           <div class="flex items-center gap-3 mb-1">
             <img src="vector_logo.jpeg" class="w-6 h-6 object-contain">
-            <p class="font-semibold" data-i18n="vector_title"></p>
+            <p class="font-semibold" data-i18n="vector_role"></p>
           </div>
           <p data-i18n="vector_desc"></p>
-          <ul class="list-disc list-inside text-gray-700">
-            <li data-i18n="vector_b1"></li>
-            <li data-i18n="vector_b2"></li>
-          </ul>
+          <ul class="list-disc list-inside text-gray-700" data-i18n="vector_tasks"></ul>
         </div>
 
+        <!-- Altia -->
+        <div class="pb-4 border-b border-gray-200 last:border-0">
+          <div class="flex items-center gap-3 mb-1">
+            <img src="altia_logo.jpeg" class="w-6 h-6 object-contain">
+          <p class="font-semibold" data-i18n="altia_role"></p>
+          </div>
+          <p data-i18n="altia_desc"></p>
+          <ul class="list-disc list-inside text-gray-700" data-i18n="altia_tasks"></ul>
+        </div>
+
+        <!-- Marketeer -->
+        <div class="pb-4 border-b border-gray-200 last:border-0">
+          <div class="flex items-center gap-3 mb-1">
+            <img src="marketeer_logo.jpeg" class="w-6 h-6 object-contain">
+            <p class="font-semibold" data-i18n="marketeer_role"></p>
+          </div>
+          <p data-i18n="marketeer_desc"></p>
+          <ul class="list-disc list-inside text-gray-700" data-i18n="marketeer_tasks"></ul>
+        </div>
       </div>
     </section>
 
     <!-- Formación -->
-    <section class="mb-8">
+   <section class="mb-8">
       <h2 class="text-xl font-semibold mb-4 border-b pb-1 border-gray-300" data-i18n="education_title"></h2>
       <div class="space-y-6">
-        <p data-i18n="education_desc"></p>
+      <div class="flex items-center gap-3 mb-1">
+        <img src="universidade_da_corua_logo.jpeg" class="w-8 h-8 object-contain">
+        <p class="font-semibold" data-i18n="education_university"></p>
       </div>
-    </section>
+      <p data-i18n="education_degree"></p>
+      <p data-i18n="education_specialization"></p>
+    </div>
+  </section>
 
     <!-- Contacto -->
     <section>

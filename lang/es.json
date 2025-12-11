@@ -6,7 +6,7 @@
   "skills_title": "Habilidades técnicas",
 
   "work_style_title": "Cómo trabajo con la gente",
-  "work_style_text": "Me gusta trabajar en equipo y creo que las mejores ideas surgen de la colaboración. He sido el punto de contacto con clientes y he participado en procesos de selección y formación de nuevos integrantes.",
+  "work_style_text": "Me gusta trabajar con gente y compartir ideas; creo que cuando cada uno aporta su forma de ver las cosas, el resultado siempre mejora. A lo largo de los proyectos he sido la persona a la que acudían tanto clientes como compañeros, y eso me ha permitido entender mejor lo que necesita cada uno. También he participado en la incorporación de nuevos miembros del equipo, ayudándolos a adaptarse y a sentirse parte del proyecto desde el primer día.",
 
   "experience_title": "Lo que he hecho",
 
@@ -25,18 +25,27 @@
   "vector_tasks": [
     "Desarrollo y mantenimiento de servicios en Java.",
     "Optimización de consultas SQL."
-  ]
+  ],
 
-  "altia_role": "Desarrollador Backend – Altia S.A.",
-  "altia_desc": "Desarrollo de servicios web en Java con Apache Struts para la Administración Pública.",
+  "altia_role": "Desarrollador de Software – Altia S.A.",
+  "altia_desc": "Producto propio: herramienta de gestión de procesos orientada a la Administración Pública.",
+  "altia_tasks": [
+    "Desarrollo y mantenimiento de servicios web en Java con Apache Struts.",
+    "Participación en la mejora de funcionalidades del producto."
+  ],
 
   "marketeer_role": "Desarrollador Backend – Marketeer",
-  "marketeer_desc": "Desarrollo de microservicios en Python para chatbots en Facebook y WhatsApp.",
+  "marketeer_desc": "Proyecto vinculado a una plataforma de mensajería instantánea.",
+  "marketeer_tasks": [
+    "Desarrollo de microservicios en Python para una plataforma de mensajería instantánea.",
+    "Uso de tecnologías empleadas por grandes compañías con un alto volumen de usuarios.",
+    "Trabajo en un entorno de co-working junto a desarrolladores tanto de frontend como de backend."
+  ],
 
   "education_title": "Formación",
-  "degree": "Grado en Ingeniería Informática – Mención en Computación",
-  "university": "Universidade da Coruña",
-  "education_desc": "Especialización en programación, arquitectura de sistemas e inteligencia artificial.",
+  "education_university": "Universidade da Coruña",
+  "education_degree": "Grado en Ingeniería Informática",
+  "education_specialization": "Mención en Computación",
 
   "contact_title": "Contáctame",
   "rights": "Todos los derechos reservados."

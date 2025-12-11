@@ -6,7 +6,7 @@
   "skills_title": "Technical skills",
 
   "work_style_title": "How I work with people",
-  "work_style_text": "I enjoy teamwork and believe the best ideas come from collaboration. I have been the main point of contact with clients and have taken part in recruiting and onboarding new developers.",
+  "work_style_text": "I enjoy working with people and sharing ideas; I believe projects always improve when everyone brings their own perspective. Throughout different roles, I’ve often been the person clients and teammates turned to, which helped me understand what each of them needed. I’ve also been involved in welcoming new team members, helping them settle in and feel part of the project from day one.",
 
   "experience_title": "Experience",
 
@@ -21,18 +21,31 @@
   ],
 
   "vector_role": "Backend Developer – Vector ITC Group",
-  "vector_desc": "Project in the textile and logistics sector. Development and maintenance of Java services.",
+  "vector_desc": "Project in the textile and logistics sector",
+  "vector_tasks": [
+    "Development and maintenance of Java backend services.",
+    "Optimization of SQL queries."
+  ],
 
-  "altia_role": "Backend Developer – Altia S.A.",
-  "altia_desc": "Development of web services in Java with Apache Struts for Public Administration.",
+  "altia_role": "Software Developer – Altia S.A.",
+  "altia_desc": "In-house product: process management tool for Public Administration.",
+  "altia_tasks": [
+    "Development and maintenance of Java web services using Apache Struts.",
+    "Contribution to product feature improvements."
+  ],
 
   "marketeer_role": "Backend Developer – Marketeer",
-  "marketeer_desc": "Development of Python microservices for Facebook and WhatsApp chatbots.",
+  "marketeer_desc": "Project related to an instant messaging platform.",
+  "marketeer_tasks": [
+    "Development of Python microservices for an instant messaging platform.",
+    "Use of technologies adopted by major companies with a large user base.",
+    "Experience working in a co-working environment with both frontend and backend developers."
+  ],
 
   "education_title": "Education",
-  "degree": "Bachelor’s Degree in Computer Engineering – Computing Specialization",
-  "university": "University of A Coruña",
-  "education_desc": "Focused on programming, systems architecture and artificial intelligence.",
+  "education_university": "University of A Coruña",
+  "education_degree": "Bachelor's Degree in Computer Science",
+  "education_specialization": "Focused on programming, systems architecture and artificial intelligence.",
 
   "contact_title": "Contact",
   "rights": "All rights reserved."
