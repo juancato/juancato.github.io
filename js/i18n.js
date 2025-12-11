@@ -4,11 +4,12 @@ async function loadLanguage(lang) {
   const body = document.getElementById("body");
 
   // Fade out
-  body.style.opacity = 0;
+  body.classList.add("opacity-0");
 
-  // Espera un momento para que el fade out sea visible
-  await new Promise(resolve => setTimeout(resolve, 150));
+  // Espera el fade out (Tailwind: duration-300 = 0.3s)
+  await new Promise(resolve => setTimeout(resolve, 300));
 
+  // Carga las traducciones
   const response = await fetch(`lang/${lang}.json`);
   const translations = await response.json();
 
@@ -32,7 +33,7 @@ async function loadLanguage(lang) {
 
   // Fade in
   requestAnimationFrame(() => {
-    body.style.opacity = 1;
+    body.classList.remove("opacity-0");
   });
 }
 
@@ -41,5 +42,9 @@ function setLanguage(lang) {
 }
 
 document.addEventListener("DOMContentLoaded", () => {
+  // Asegúrate de que el body tenga la clase para transición
+  const body = document.getElementById("body");
+  body.classList.add("transition-opacity", "duration-300");
+  
   loadLanguage(defaultLanguage);
 });
