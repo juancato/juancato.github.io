@@ -8,11 +8,21 @@
   <title>Juan García Catoira – Backend developer</title>
   <meta name="description" content="Currículum, desarrollador backend">
 
+  <link rel="stylesheet" href="styles.css">
+
   <script src="https://cdn.tailwindcss.com"></script>
   <link rel="icon" href="letra-j.png">
 </head>
 
 <body class="bg-gray-50 text-gray-800 font-sans leading-relaxed transition-opacity duration-300" id="body">
+
+  <header class="sticky top-0 bg-gray-50 z-10 shadow-md py-4">
+    <div class="max-w-3xl mx-auto flex justify-between items-center px-8">
+      <h1 class="text-2xl font-bold">Juan García Catoira</h1>
+      <a href="#contact"
+        class="bg-blue-600 text-white px-4 py-2 rounded-full hover:bg-blue-700 transition">Contáctame</a>
+    </div>
+  </header>
 
   <div class="flex flex-col items-center mt-6 mb-2">
 
@@ -144,7 +154,7 @@
       </div>
     </section>
     <!-- Contacto -->
-    <section>
+    <section id="contact">
       <h2 class="text-xl font-semibold mb-2 border-b pb-1 border-gray-300" data-i18n="contact_title"></h2>
       <ul>
         <li>📧 <a href="mailto:jgarciacatoira@gmail.com" class="text-blue-600 hover:underline">Email</a></li>
