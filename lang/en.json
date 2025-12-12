@@ -4,16 +4,16 @@
   "about_title": "About me",
   "about_text": "I’m a backend developer, specialized in Java, and I’ve worked on all sorts of projects, from banking to insurance, including some pretty big ones. I love writing clean code and I'm always looking for ways to make things more efficient. I’m not a fan of overcomplicating solutions when they can be simple and scalable. I enjoy learning and constantly improving, whether it’s with new technologies or finding smoother ways to get things done. For me, the most important thing is working well as a team; I believe the best ideas come when everyone shares and contributes. So, besides coding, I really enjoy collaborating and creating a positive vibe with others.",
   
-"skills_title": "Skills",
-"skills_list": [
-  "Java / Python",
-  "Spring / Hibernate",
-  "SQL / DB2",
-  "CI / CD",
-  "Git / GitLab",
-  "REST APIs",
-  "Microservices"
-],
+  "skills_title": "Skills",
+  "skills_list": [
+    "Java / Python",
+    "Spring / Hibernate",
+    "SQL / DB2",
+    "CI / CD",
+    "Git / GitLab",
+    "REST APIs",
+    "Microservices"
+  ],
 
   "work_style_title": "How I work with people",
   "work_style_text": "I enjoy working with people and sharing ideas; I believe projects always improve when everyone brings their own perspective. Throughout different roles, I’ve often been the person clients and teammates turned to, which helped me understand what each of them needed. I’ve also been involved in welcoming new team members, helping them settle in and feel part of the project from day one.",
