@@ -1,5 +1,4 @@
-/* styles.css */
-/* Estilos para el header fijo */
+/* Estilos para el header sticky */
 header.sticky {
   position: sticky;
   top: 0;
@@ -8,13 +7,19 @@ header.sticky {
   z-index: 10;
   padding-top: 16px;
   padding-bottom: 16px;
+  transition: transform 0.5s ease, opacity 0.5s ease;
+  /* Comienza oculto (desplazado hacia abajo y con opacidad 0) */
+  transform: translateY(-100%);
+  opacity: 0;
 }
 
-header h1 {
-  font-size: 24px;
-  font-weight: bold;
+/* Cuando el header se activa, se muestra suavemente */
+header.sticky.visible {
+  transform: translateY(0);  /* Mueve el header hacia arriba */
+  opacity: 1;  /* Cambia la opacidad a 1 */
 }
 
+/* Botón de contacto */
 header a {
   background-color: #007bff;
   color: white;
@@ -25,9 +30,4 @@ header a {
 
 header a:hover {
   background-color: #0056b3;
-}
-
-/* Espaciado entre la descripción y los hobbies */
-section h2 {
-  margin-top: 20px; /* Aumentar espacio entre la descripción y los hobbies */
 }
