@@ -4,89 +4,100 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
   <title>Juan García Catoira – Backend developer</title>
   <meta name="description" content="Currículum, desarrollador backend">
-
-  <link rel="stylesheet" href="style.css">
-
+  <link rel="stylesheet" href="styles.css">
   <script src="https://cdn.tailwindcss.com"></script>
   <link rel="icon" href="letra-j.png">
 </head>
 
 <body class="bg-gray-50 text-gray-800 font-sans leading-relaxed transition-opacity duration-300" id="body">
-
-  <!-- Selector de idioma -->
   <div class="flex flex-col items-center mt-6 mb-2">
-    <div class="flex gap-4" id="language-selector">
-      <button onclick="setLanguage('es')" class="flex items-center gap-2 px-3 py-2 rounded-full hover:bg-gray-200 transition">
-        <div class="w-6 h-6 rounded-full overflow-hidden border">
-          <img src="es.svg" class="w-full h-full object-cover" alt="Español">
-        </div>
-        <span class="text-sm">es</span>
-      </button>
-      <button onclick="setLanguage('en')" class="flex items-center gap-2 px-3 py-2 rounded-full hover:bg-gray-200 transition">
-        <div class="w-6 h-6 rounded-full overflow-hidden border">
-          <img src="gb.svg" class="w-full h-full object-cover" alt="English">
-        </div>
-        <span class="text-sm">en</span>
-      </button>
-    </div>
-  </div>
+    <div class="flex gap-4" id="language-selector"> <button onclick="setLanguage('es')"
+        class="flex items-center gap-2 px-3 py-2 rounded-full hover:bg-gray-200 transition">
+        <div class="w-6 h-6 rounded-full overflow-hidden border"> <img src="es.svg" class="w-full h-full object-cover"
+            alt="Español"> </div> <span class="text-sm">es</span>
+      </button> <button onclick="setLanguage('en')"
+        class="flex items-center gap-2 px-3 py-2 rounded-full hover:bg-gray-200 transition">
+        <div class="w-6 h-6 rounded-full overflow-hidden border"> <img src="gb.svg" class="w-full h-full object-cover"
+            alt="English"> </div> <span class="text-sm">en</span>
+      </button> </div>
+  </div> <!-- Contenedor principal -->
 
-  <!-- Header fijo -->
-  <header id="sticky-header" class="sticky top-0 bg-gray-50 z-10 shadow-md py-4 transform translate-y-full opacity-0 transition-all duration-500">
-    <div class="max-w-3xl mx-auto flex justify-between items-center px-8">
-      <h1 class="text-2xl font-bold">Juan García Catoira</h1>
-      <a href="#contact" class="bg-blue-600 text-white px-4 py-2 rounded-full hover:bg-blue-700 transition">Contáctame</a>
+  <header class="sticky top-0 z-50 bg-gray-50/90 backdrop-blur border-b border-gray-200">
+    <div class="max-w-3xl mx-auto px-8 py-3 flex items-center justify-between">
+      <span class="font-bold">Juan García Catoira</span>
+
+      <a href="#contact" class="px-4 py-2 rounded-full bg-blue-600 text-white hover:bg-blue-700 transition">
+        Contáctame
+      </a>
     </div>
   </header>
 
-  <!-- Contenedor principal -->
-  <main class="max-w-3xl mx-auto p-8">
-    <!-- Encabezado -->
+
+  <main class="max-w-3xl mx-auto p-8"> <!-- Encabezado -->
     <header class="text-center mb-10">
-      <div class="w-56 h-56 mx-auto rounded-full overflow-hidden shadow-md mb-4">
-        <img src="foto_web.jpg" alt="Foto de perfil" class="w-full h-full object-cover object-center">
-      </div>
+      <div class="w-56 h-56 mx-auto rounded-full overflow-hidden shadow-md mb-4"> <img src="foto_web.jpg"
+          alt="Foto de perfil" class="w-full h-full object-cover object-center"> </div>
       <h1 class="text-3xl font-bold mb-2">Juan García Catoira</h1>
       <p class="text-gray-600" data-i18n="subtitle"></p>
-    </header>
-
-    <!-- Sección de habilidades -->
-    <section class="mb-8">
-      <h2 class="text-xl font-semibold mb-2 border-b pb-1 border-gray-300" data-i18n="skills_title"></h2>
-      <ul class="grid grid-cols-2 gap-2 list-disc list-inside" data-i18n="skills_list"></ul>
-    </section>
-
-    <!-- Sección sobre mí -->
+    </header> <!-- Sobre mí -->
     <section class="mb-8">
       <h2 class="text-xl font-semibold mb-2 border-b pb-1 border-gray-300" data-i18n="about_title"></h2>
       <p data-i18n="about_text"></p>
-    </section>
-
-    <!-- Sección de experiencia -->
+    </section> <!-- Habilidades -->
+    <section class="mb-8">
+      <h2 class="text-xl font-semibold mb-2 border-b pb-1 border-gray-300" data-i18n="skills_title"></h2>
+      <ul class="grid grid-cols-2 gap-2 list-disc list-inside" data-i18n="skills_list"></ul>
+    </section> <!-- Cómo trabajo -->
+    <section class="mb-8">
+      <h2 class="text-xl font-semibold mb-2 border-b pb-1 border-gray-300" data-i18n="work_style_title"></h2>
+      <p data-i18n="work_style_text"></p>
+    </section> <!-- Experiencia -->
     <section class="mb-8">
       <h2 class="text-xl font-semibold mb-4 border-b pb-1 border-gray-300" data-i18n="experience_title"></h2>
-      <div class="space-y-6">
-        <!-- Incluye las secciones de experiencias aquí -->
+      <div class="space-y-6"> <!-- Odeene -->
+        <div class="pb-4 border-b border-gray-200 last:border-0">
+          <div class="flex items-center gap-3 mb-1"> <img src="odeene_logo.jpeg" class="w-6 h-6 object-contain">
+            <p class="font-semibold" data-i18n="odeene_role"></p>
+          </div>
+          <p data-i18n="odeene_desc"></p>
+          <ul class="list-disc list-inside text-gray-700" data-i18n="odeene_tasks"></ul>
+        </div> <!-- Vector -->
+        <div class="pb-4 border-b border-gray-200 last:border-0">
+          <div class="flex items-center gap-3 mb-1"> <img src="vector_logo.jpeg" class="w-6 h-6 object-contain">
+            <p class="font-semibold" data-i18n="vector_role"></p>
+          </div>
+          <p data-i18n="vector_desc"></p>
+          <ul class="list-disc list-inside text-gray-700" data-i18n="vector_tasks"></ul>
+        </div> <!-- Altia -->
+        <div class="pb-4 border-b border-gray-200 last:border-0">
+          <div class="flex items-center gap-3 mb-1"> <img src="altia_logo.jpeg" class="w-6 h-6 object-contain">
+            <p class="font-semibold" data-i18n="altia_role"></p>
+          </div>
+          <p data-i18n="altia_desc"></p>
+          <ul class="list-disc list-inside text-gray-700" data-i18n="altia_tasks"></ul>
+        </div> <!-- Marketeer -->
+        <div class="pb-4 border-b border-gray-200 last:border-0">
+          <div class="flex items-center gap-3 mb-1"> <img src="marketeer_logo.jpeg" class="w-6 h-6 object-contain">
+            <p class="font-semibold" data-i18n="marketeer_role"></p>
+          </div>
+          <p data-i18n="marketeer_desc"></p>
+          <ul class="list-disc list-inside text-gray-700" data-i18n="marketeer_tasks"></ul>
+        </div>
       </div>
-    </section>
-
-    <!-- Sección de formación -->
+    </section> <!-- Formación -->
     <section class="mb-8">
       <h2 class="text-xl font-semibold mb-4 border-b pb-1 border-gray-300" data-i18n="education_title"></h2>
       <div class="space-y-6">
-        <div class="flex items-center gap-3 mb-1">
-          <img src="universidade_da_corua_logo.jpeg" class="w-8 h-8 object-contain">
+        <div class="flex items-center gap-3 mb-1"> <img src="universidade_da_corua_logo.jpeg"
+            class="w-8 h-8 object-contain">
           <p class="font-semibold" data-i18n="education_university"></p>
         </div>
         <p data-i18n="education_degree"></p>
         <p data-i18n="education_specialization"></p>
       </div>
     </section>
-
-    <!-- Sección de hobbies -->
     <section class="mb-8">
       <h2 class="text-xl font-semibold mb-4 border-b pb-1 border-gray-300" data-i18n="hobbies_title"></h2>
       <p data-i18n="hobbies_desc"></p>
@@ -99,29 +110,26 @@
           <h3 class="font-semibold text-lg" data-i18n="hobby_2_title"></h3>
           <p data-i18n="hobby_2_desc"></p>
         </div>
+        <div>
+          <h3 class="font-semibold text-lg" data-i18n="hobby_3_title"></h3>
+          <p data-i18n="hobby_3_desc"></p>
+        </div>
       </div>
-    </section>
-
-    <!-- Sección de contacto -->
+    </section> <!-- Contacto -->
     <section id="contact">
       <h2 class="text-xl font-semibold mb-2 border-b pb-1 border-gray-300" data-i18n="contact_title"></h2>
       <ul>
         <li>📧 <a href="mailto:jgarciacatoira@gmail.com" class="text-blue-600 hover:underline">Email</a></li>
-        <li>💼 <a href="https://www.linkedin.com/in/juan-garc%C3%ADa-catoira-772817a2/" class="text-blue-600 hover:underline">Linkedin</a></li>
+        <li>💼 <a href="https://www.linkedin.com/in/juan-garc%C3%ADa-catoira-772817a2/"
+            class="text-blue-600 hover:underline">Linkedin</a></li>
       </ul>
     </section>
-
     <footer class="mt-12 text-center text-gray-500 text-sm">
       <p>© <span id="year"></span> Juan García Catoira.</p>
     </footer>
   </main>
-
-  <script>
-    document.getElementById('year').textContent = new Date().getFullYear();
-  </script>
-
+  <script> document.getElementById('year').textContent = new Date().getFullYear(); </script>
   <script src="./js/i18n.js"></script>
-  <script src="script.js"></script>
-
 </body>
+
 </html>
