@@ -1,9 +1,18 @@
 {
   "subtitle": "Analista y desarrollador Backend",
   "about_title": "Sobre mí",
-  "about_text": "Soy desarrollador backend especializado en Java, con experiencia en banca, seguros y proyectos de gran escala. Me apasiona el código limpio, la mejora continua y el trabajo en equipo.",
+  "about_text": "Soy desarrollador backend, especializado en Java, y he trabajado en proyectos de todo tipo, desde banca hasta seguros, pasando por algunos bastante grandes. Me encanta escribir código limpio y siempre estoy buscando maneras de hacer las cosas más eficientes. No soy fan de complicar las soluciones cuando se pueden hacer simples y escalables.Me gusta aprender y mejorar constantemente, ya sea con nuevas tecnologías o encontrando formas de hacer las cosas de manera más fluida. Para mí, lo más importante es trabajar bien en equipo; creo que las mejores ideas salen cuando todos compartimos y aportamos. Así que, además de programar, disfruto mucho de colaborar y crear un buen ambiente con los demás.",
   
-  "skills_title": "Habilidades técnicas",
+  "skills_title": "Habilidades",
+  "skills_list": [
+    "Java / Python",
+    "Spring / Hibernate",
+    "SQL / DB2",
+    "CI / CD",
+    "Git / GitLab",
+    "APIs REST",
+    "Microservicios"
+  ],
 
   "work_style_title": "Cómo trabajo con la gente",
   "work_style_text": "Me gusta trabajar con gente y compartir ideas; creo que cuando cada uno aporta su forma de ver las cosas, el resultado siempre mejora. A lo largo de los proyectos he sido la persona a la que acudían tanto clientes como compañeros, y eso me ha permitido entender mejor lo que necesita cada uno. También he participado en la incorporación de nuevos miembros del equipo, ayudándolos a adaptarse y a sentirse parte del proyecto desde el primer día.",
@@ -46,6 +55,15 @@
   "education_university": "Universidade da Coruña",
   "education_degree": "Grado en Ingeniería Informática",
   "education_specialization": "Mención en Computación",
+
+  "hobbies_title": "Mis Aficiones",
+  "hobbies_desc": "En mi tiempo libre, disfruto de actividades que me permiten desconectar y seguir aprendiendo. Aquí te cuento un poco más sobre lo que me gusta hacer:",
+  "hobby_1_title": "Jiujitsu 🥋",
+  "hobby_1_desc": "Soy cinturón morado en Jiujitsu, una disciplina que me reta tanto física como mentalmente. Me encanta la filosofía de superación y disciplina que lleva consigo, además de la sensación de progresar constantemente.",
+  "hobby_2_title": "Música 🎸",
+  "hobby_2_desc": "Toco la guitarra de forma autodidacta desde que era pequeño y he tenido la suerte de estar en varios grupos de música. Para mí, la música es una forma de expresión y una manera de conectarme con los demás.",
+  "hobby_3_title": "Diseño e Impresión 3D 🖨️",
+  "hobby_3_desc": "Últimamente me he sumergido en el mundo del diseño e impresión 3D. Es fascinante ver cómo una idea se convierte en un objeto tangible, y me encanta experimentar con nuevas creaciones y aprender todo lo que puedo sobre esta tecnología.",
 
   "contact_title": "Contáctame",
   "rights": "Todos los derechos reservados."

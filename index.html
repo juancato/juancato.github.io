@@ -1,10 +1,11 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-  <title>Juan García – Analista y desarrollador Backend</title>
+  <title>Juan García Catoira – Backend developer</title>
   <meta name="description" content="Currículum, desarrollador backend">
 
   <script src="https://cdn.tailwindcss.com"></script>
@@ -14,16 +15,18 @@
 <body class="bg-gray-50 text-gray-800 font-sans leading-relaxed transition-opacity duration-300" id="body">
 
   <div class="flex flex-col items-center mt-6 mb-2">
-        
+
     <div class="flex gap-4" id="language-selector">
-      <button onclick="setLanguage('es')" class="flex items-center gap-2 px-3 py-2 rounded-full hover:bg-gray-200 transition">
+      <button onclick="setLanguage('es')"
+        class="flex items-center gap-2 px-3 py-2 rounded-full hover:bg-gray-200 transition">
         <div class="w-6 h-6 rounded-full overflow-hidden border">
           <img src="es.svg" class="w-full h-full object-cover" alt="Español">
         </div>
         <span class="text-sm">es</span>
       </button>
 
-      <button onclick="setLanguage('en')" class="flex items-center gap-2 px-3 py-2 rounded-full hover:bg-gray-200 transition">
+      <button onclick="setLanguage('en')"
+        class="flex items-center gap-2 px-3 py-2 rounded-full hover:bg-gray-200 transition">
         <div class="w-6 h-6 rounded-full overflow-hidden border">
           <img src="gb.svg" class="w-full h-full object-cover" alt="English">
         </div>
@@ -47,22 +50,14 @@
 
     <!-- Sobre mí -->
     <section class="mb-8">
-      <h2 class="text-xl font-semibold mb-2 border-b pb-1 border-gray-300" data-i18n="about_title"></h2> 
+      <h2 class="text-xl font-semibold mb-2 border-b pb-1 border-gray-300" data-i18n="about_title"></h2>
       <p data-i18n="about_text"></p>
     </section>
 
     <!-- Habilidades -->
     <section class="mb-8">
       <h2 class="text-xl font-semibold mb-2 border-b pb-1 border-gray-300" data-i18n="skills_title"></h2>
-      <ul class="grid grid-cols-2 gap-2 list-disc list-inside">
-        <li>Java / Python</li>
-        <li>Spring / Hibernate</li>
-        <li>SQL / DB2</li>
-        <li>CI / CD</li>
-        <li>Git / GitLab</li>
-        <li>APIs REST</li>
-        <li>Microservicios</li>
-      </ul>
+      <ul class="grid grid-cols-2 gap-2 list-disc list-inside" data-i18n="skills_list"></ul>
     </section>
 
     <!-- Cómo trabajo -->
@@ -100,7 +95,7 @@
         <div class="pb-4 border-b border-gray-200 last:border-0">
           <div class="flex items-center gap-3 mb-1">
             <img src="altia_logo.jpeg" class="w-6 h-6 object-contain">
-          <p class="font-semibold" data-i18n="altia_role"></p>
+            <p class="font-semibold" data-i18n="altia_role"></p>
           </div>
           <p data-i18n="altia_desc"></p>
           <ul class="list-disc list-inside text-gray-700" data-i18n="altia_tasks"></ul>
@@ -119,24 +114,42 @@
     </section>
 
     <!-- Formación -->
-   <section class="mb-8">
+    <section class="mb-8">
       <h2 class="text-xl font-semibold mb-4 border-b pb-1 border-gray-300" data-i18n="education_title"></h2>
       <div class="space-y-6">
-      <div class="flex items-center gap-3 mb-1">
-        <img src="universidade_da_corua_logo.jpeg" class="w-8 h-8 object-contain">
-        <p class="font-semibold" data-i18n="education_university"></p>
+        <div class="flex items-center gap-3 mb-1">
+          <img src="universidade_da_corua_logo.jpeg" class="w-8 h-8 object-contain">
+          <p class="font-semibold" data-i18n="education_university"></p>
+        </div>
+        <p data-i18n="education_degree"></p>
+        <p data-i18n="education_specialization"></p>
       </div>
-      <p data-i18n="education_degree"></p>
-      <p data-i18n="education_specialization"></p>
-    </div>
-  </section>
-
+    </section>
+    <section class="mb-8">
+      <h2 class="text-xl font-semibold mb-4 border-b pb-1 border-gray-300" data-i18n="hobbies_title"></h2>
+      <p data-i18n="hobbies_desc"></p>
+      <div class="grid grid-cols-1 sm:grid-cols-2 gap-6">
+        <div>
+          <h3 class="font-semibold text-lg" data-i18n="hobby_1_title"></h3>
+          <p data-i18n="hobby_1_desc"></p>
+        </div>
+        <div>
+          <h3 class="font-semibold text-lg" data-i18n="hobby_2_title"></h3>
+          <p data-i18n="hobby_2_desc"></p>
+        </div>
+        <div>
+          <h3 class="font-semibold text-lg" data-i18n="hobby_3_title"></h3>
+          <p data-i18n="hobby_3_desc"></p>
+        </div>
+      </div>
+    </section>
     <!-- Contacto -->
     <section>
       <h2 class="text-xl font-semibold mb-2 border-b pb-1 border-gray-300" data-i18n="contact_title"></h2>
       <ul>
         <li>📧 <a href="mailto:jgarciacatoira@gmail.com" class="text-blue-600 hover:underline">Email</a></li>
-        <li>💼 <a href="https://www.linkedin.com/in/juan-garc%C3%ADa-catoira-772817a2/" class="text-blue-600 hover:underline">Linkedin</a></li>
+        <li>💼 <a href="https://www.linkedin.com/in/juan-garc%C3%ADa-catoira-772817a2/"
+            class="text-blue-600 hover:underline">Linkedin</a></li>
       </ul>
     </section>
 
@@ -152,4 +165,5 @@
 
   <script src="./js/i18n.js"></script>
 </body>
+
 </html>

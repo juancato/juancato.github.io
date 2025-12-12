@@ -1,9 +1,18 @@
 {
   "subtitle": "Backend Analyst and Developer",
   "about_title": "About me",
-  "about_text": "I am a backend developer specialized in Java, with experience in banking, insurance, and large-scale projects. I am passionate about clean code, continuous improvement, and teamwork.",
+  "about_text": "I’m a backend developer, specialized in Java, and I’ve worked on all sorts of projects, from banking to insurance, including some pretty big ones. I love writing clean code and I'm always looking for ways to make things more efficient. I’m not a fan of overcomplicating solutions when they can be simple and scalable. I enjoy learning and constantly improving, whether it’s with new technologies or finding smoother ways to get things done. For me, the most important thing is working well as a team; I believe the best ideas come when everyone shares and contributes. So, besides coding, I really enjoy collaborating and creating a positive vibe with others.",
   
-  "skills_title": "Technical skills",
+"skills_title": "Skills",
+"skills_list": [
+  "Java / Python",
+  "Spring / Hibernate",
+  "SQL / DB2",
+  "CI / CD",
+  "Git / GitLab",
+  "REST APIs",
+  "Microservices"
+],
 
   "work_style_title": "How I work with people",
   "work_style_text": "I enjoy working with people and sharing ideas; I believe projects always improve when everyone brings their own perspective. Throughout different roles, I’ve often been the person clients and teammates turned to, which helped me understand what each of them needed. I’ve also been involved in welcoming new team members, helping them settle in and feel part of the project from day one.",
@@ -46,6 +55,16 @@
   "education_university": "University of A Coruña",
   "education_degree": "Bachelor's Degree in Computer Science",
   "education_specialization": "Focused on programming, systems architecture and artificial intelligence.",
+
+"hobbies_title": "My Hobbies",
+  "hobbies_desc": "In my free time, I enjoy activities that help me unwind and keep learning. Here’s a bit more about what I like to do:",
+  "hobby_1_title": "Jiujitsu 🥋",
+  "hobby_1_desc": "I’m a purple belt in Jiujitsu, a discipline that challenges me both physically and mentally. I love the philosophy of growth and discipline it carries, along with the constant feeling of progress.",
+  "hobby_2_title": "Music 🎸",
+  "hobby_2_desc": "I’ve been playing guitar self-taught since I was a kid and have had the opportunity to play in several bands. For me, music is a way of expression and a way to connect with others.",
+  "hobby_3_title": "3D Design and Printing 🖨️",
+  "hobby_3_desc": "I’ve recently delved into 3D design and printing. It’s amazing to see an idea turn into a tangible object, and I love experimenting with new creations and learning as much as I can about this technology.",
+
 
   "contact_title": "Contact",
   "rights": "All rights reserved."
